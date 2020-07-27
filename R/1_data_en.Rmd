@@ -45,7 +45,7 @@ import matplotlib.pyplot as plt
 ```
 
 ```{python get-stats}
-stats_names = get_statistics()
+stats_names = get_statistics(target_language = 'en')
 
 # Availability
 availability = get_availability_summary()
